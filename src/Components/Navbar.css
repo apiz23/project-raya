@@ -1,0 +1,20 @@
+.navbar-nav {
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-nav .nav-item {
+	margin: 0 10px;
+    flex: 1 1 auto;
+	color: white;
+	font-family: Marcellus;
+	font-size: 30px;
+	font-style: bold;
+	text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.55);
+}
+
+#btnNav{
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
