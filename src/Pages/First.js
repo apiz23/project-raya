@@ -25,7 +25,7 @@ export default function First() {
 									Ampun maaf segala peri,
 									<br />
 									Semoga ikatan kekal dihati, <br />
-									Selama Hari Raya Maaf Zahir Batin
+									Selamat Hari Raya Maaf Zahir Batin
 								</p>
 								<div className="accordion" id="accordion">
 									<div className="accordion-item">
