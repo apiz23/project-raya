@@ -66,15 +66,15 @@ export default function First() {
 												className="accordion-button"
 												type="button"
 												data-bs-toggle="collapse"
-												data-bs-target="#collapseOne"
+												data-bs-target="#collapseTwo"
 												aria-expanded="true"
-												aria-controls="collapseOne"
+												aria-controls="collapseTwo"
 											>
 												Family Picture
 											</button>
 										</h2>
 										<div
-											id="collapseOne"
+											id="collapseTwo"
 											className="accordion-collapse collapse show"
 											data-bs-parent="#accordionExample"
 										>
