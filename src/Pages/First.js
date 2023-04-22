@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import "./First.css";
 import Qr1 from "./1.jpg";
 import Qr2 from "./2.jpg";
+import FamPic from "./3.jpg";
 
 export default function First() {
 	return (
@@ -56,6 +57,29 @@ export default function First() {
 													kali ini membawa kegembiraan, ketenangan, dan
 													kebahagiaan di dalam keluarga.
 												</p>
+											</div>
+										</div>
+									</div>
+									<div className="accordion-item">
+										<h2 className="accordion-header">
+											<button
+												className="accordion-button"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseOne"
+												aria-expanded="true"
+												aria-controls="collapseOne"
+											>
+												Family Picture
+											</button>
+										</h2>
+										<div
+											id="collapseOne"
+											className="accordion-collapse collapse show"
+											data-bs-parent="#accordionExample"
+										>
+											<div className="accordion-body">
+												<img src={FamPic} className="img-fluid"/>
 											</div>
 										</div>
 									</div>
